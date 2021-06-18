@@ -4,8 +4,11 @@ import ChristopherLeeResume from "../images/ChristopherLeeResume.pdf";
 
 const Nav = () => {
 
-  const handleClick = (event) => {
+  const handleClickOpen = (event) => {
     document.body.classList.toggle('nav-open');
+  }
+  const handleClickClose = (event) => {
+    document.body.classList.remove('nav-open');
   }
 
   return (
@@ -24,36 +27,36 @@ const Nav = () => {
         </a>
       </div>
       <div>
-        <button className="nav-toggle" aria-label="toggle navigation" onClick={handleClick}>
+        <button className="nav-toggle" aria-label="toggle navigation" onClick={handleClickOpen}>
           <span className="hamburger"></span>
         </button>
         <nav className="nav">
           <ul className="nav__list">
-            <li className="nav__item">
+            <li className="nav__item" onClick={handleClickClose}>
               {" "}
               <a href="#home" className="nav__link">
                 Home
               </a>{" "}
             </li>
-            <li className="nav__item">
+            <li className="nav__item" onClick={handleClickClose}>
               {" "}
               <a href="#aboutme" className="nav__link">
                 About Me
               </a>{" "}
             </li>
-            <li className="nav__item">
+            <li className="nav__item" onClick={handleClickClose}>
               {" "}
               <a href="#technologies" className="nav__link">
                 Technologies
               </a>{" "}
             </li>
-            <li className="nav__item">
+            <li className="nav__item" onClick={handleClickClose}>
               {" "}
               <a href="#mywork" className="nav__link">
                 Portfolio
               </a>{" "}
             </li>
-            <li className="nav__item">
+            <li className="nav__item" onClick={handleClickClose}>
               {" "}
               <a href="#contact" className="nav__link">
                 Contact
