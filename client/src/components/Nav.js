@@ -1,4 +1,5 @@
 import React from "react";
+import { HashRouter, Link } from "react-router-dom";
 import HeaderLogo from "../images/logo.png";
 import ChristopherLeeResume from "../images/ChristopherLeeResume.pdf";
 
@@ -33,16 +34,22 @@ const Nav = () => {
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item" onClick={handleClickClose}>
-              {" "}
-              <a href="#home" className="nav__link">
+              <Link to='/' className='nav__link'>
                 Home
-              </a>{" "}
+              </Link>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
               {" "}
-              <a href="#aboutme" className="nav__link">
-                About Me
-              </a>{" "}
+              
+              <HashRouter basename='/'>
+                <Link to="/" className="nav__link">
+                <a href="#aboutme" className="nav__link">
+                  About Me
+                  </a>
+                </Link>
+              </HashRouter>
+              
+              
             </li>
             <li className="nav__item" onClick={handleClickClose}>
               {" "}

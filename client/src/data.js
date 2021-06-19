@@ -31,6 +31,7 @@ const data = {
             _id: '4',
             name: 'Covid-19 Tracker',
             images: ['/images/CovidTracker.png'],
+            subtitle: 'Created with React',
             description: "ReactJs clone of the homepage of Amazon's web app",
             description2: "Deployed with Firebase, and used the Stripe API",
             url: "https://covid-tracker-45a19.web.app/",
