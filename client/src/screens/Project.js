@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import MyProjects from "../components/MyProjects";
 import data from "../data";
 
@@ -6,10 +6,14 @@ const Project = (props) => {
 
   const project = data.projects.find((x) => x._id === props.match.params.id);
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
-    <div>
+    <div className='individual__project--container'>
       {/* <!-- Intoduction --> */}
-      <section className="intro" id="home">
+      <section className="intro">
         <h1 className="section__title section__title--intro">
           { project.name }
         </h1>

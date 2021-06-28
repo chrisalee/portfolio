@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import data from "../data";
 
 const MyProjects = () => {
+
   return (
     <div>
       <section className="mywork" id="mywork">
@@ -13,15 +14,12 @@ const MyProjects = () => {
 
         <div className="portfolio">
           {data.projects.map((project) => (
-            <Link to={`/portfolio/${project._id}`}>
-              {/* <a href={project.url} className="portfolio__item"> */}
-              
+            <Link to={`/portfolio/${project._id}`} className='portfolio__item'>
               <img
                 src={project.images[0]}
                 alt={project.name}
-                className="portfolio__image"
+                className="portfolio__image "
               />
-              {/* </a> */}
             </Link>
           ))}
         </div>

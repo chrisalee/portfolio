@@ -79,7 +79,17 @@ const data = {
             description2: "Hangman is a game where you guess a letter of the mystery word.  If incorrect, the letter appears in a wrong box, and part of the man starts to show.  If you get it correct, it fills in the mystery word where that letter is within the word. 6 wrong guesses and you lose.",
             url: "https://github.com/chrisalee/reactHangman",
             category: "View code on GitHub"
-        }
+        },
+        {
+            _id: '9',
+            name: '2048',
+            images: ['/images/2048.png', '/images/2048-2.png'],
+            subtitle: 'JavaScript',
+            description: "A fun game created with Vanilla JavaScript",
+            description2: "2048 is a puzzle game where you use the arrow keys to move all the tiles.  When two tiles with the same number touch, they merge into a new tile.",
+            url: "https://github.com/chrisalee/reactHangman",
+            category: "View code on GitHub"
+        },
     ],
 }
 

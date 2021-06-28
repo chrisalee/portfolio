@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import HeaderLogo from "../images/logo.png";
 import ChristopherLeeResume from "../images/ChristopherLeeResume.pdf";
@@ -11,6 +11,22 @@ const Nav = () => {
   const handleClickClose = (event) => {
     document.body.classList.remove('nav-open');
   }
+
+  const [anchorTarget, setAnchorTarget] = useState(null);
+  useEffect(() => {
+    setAnchorTarget(document.getElementById("aboutme"));
+  }, ["aboutme"]);
+  useEffect(() => {
+    setAnchorTarget(document.getElementById("technologies"));
+  }, ["technologies"]);
+  useEffect(() => {
+    setAnchorTarget(document.getElementById("mywork"));
+  }, ["mywork"]);
+  useEffect(() => {
+    setAnchorTarget(document.getElementById("contact"));
+  }, ["contact"]);
+  
+
 
   return (
     <div className='header'>
@@ -39,22 +55,22 @@ const Nav = () => {
               </Link>
             </li>
             <li className="nav__item" onClick={handleClickClose}>              
-                <Link to='/#aboutme' className="nav__link">
+                <a href='/#aboutme' className="nav__link">
                   About Me
-                </Link>
+                </a>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="#technologies" className="nav__link">
+              <a href="/#technologies" className="nav__link">
                 Technologies
               </a>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="#mywork" className="nav__link">
+              <a href="/#mywork" className="nav__link">
                 Portfolio
               </a>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="#contact" className="nav__link">
+              <a href="/#contact" className="nav__link">
                 Contact
               </a>
             </li>            

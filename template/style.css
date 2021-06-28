@@ -502,6 +502,40 @@ ul {
   opacity: 0.75;
 }
 
+/* contact form*********************************************** */
+.contact {
+  margin: 1em auto;
+  max-width: 1000px;
+  border: .1em solid var(--clr-dark);
+  box-shadow: var(--bs);
+}
+
+.contact__title {
+  text-align: center; 
+  margin-top: -.75em;
+
+}
+
+.contact__title::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto;
+  background: var(--clr-dark);
+  opacity: 0.25;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form > input {
+  margin: .75em;
+  padding: .75em;
+}
+
 /* footer */
 .footer {
   background: #111;
