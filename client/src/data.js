@@ -26,7 +26,7 @@ const data = {
             images: ['/images/YouTubeClone.png', '/images/YouTubeClone2.png'],
             subtitle: 'ReactJS, Firebase',
             description: "ReactJs clone of the homepage of YouTube's homepage.",
-            description2: "Deployed with Firebase, and used the Stripe API",
+            description2: "Deployed with Firebase, and worked with the search bar, learning how the process works.",
             url: "https://challenge-20d6d.web.app/",
             category: "View Website"
         },
