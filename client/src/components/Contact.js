@@ -8,10 +8,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_y5vp1ga",
-        "template_rzpfffg",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         event.target,
-        "user_7lBUL0zD9m0IyyRbUPLJv"
+        process.env.REACT_APP_EMAILJS_USER_ID
       )
       .then(
         (result) => {

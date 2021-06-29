@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-// import MyProjects from "../components/MyProjects";
 import data from "../data";
 
 const Project = (props) => {
