@@ -13,7 +13,7 @@ const MyProjects = () => {
 
         <div className="portfolio">
           {data.projects.map((project) => (
-            <Link to={`/portfolio/${project._id}`} className="portfolio__item">
+            <Link key={project._id} to={`/portfolio/${project._id}`} className="portfolio__item">
               <img
                 src={project.images[0]}
                 alt={project.name}
