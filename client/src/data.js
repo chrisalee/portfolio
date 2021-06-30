@@ -54,7 +54,7 @@ const data = {
             _id: '6',
             name: 'Weather App',
             images: ['/images/WeatherApp.png', '/images/WeatherApp2.png'],
-            subtitle: 'ReactJS, Weather API',
+            subtitle: 'ReactJS, openWeather API',
             description: "A weather app created with ReactJS",
             description2: "Use the search bar to search cities around the world to find the temperature in Fahrenheit.  By using the openweather API, data from the city includes the temperature, the forecast, and cloudy conditions.",
             url: "https://github.com/chrisalee/reactWeatherApp",

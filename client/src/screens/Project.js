@@ -16,7 +16,7 @@ const Project = (props) => {
         <h1 className="section__title section__title--intro">
           { project.name }
         </h1>
-        <p className="section__subtitle section__subtitle--intro">ReactJS</p>
+        <p className="section__subtitle section__subtitle--intro">{project.subtitle}</p>
         <img
           src={project.images[0]}
           alt={project.name}
