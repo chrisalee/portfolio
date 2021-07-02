@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "the-chrislee.com",
+  "homepage": "http://www.the-chrislee.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -13,9 +13,8 @@
     "emailjs-com": "^3.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "react-typed": "^1.2.0",
     "web-vitals": "^1.0.1"
   },
@@ -34,7 +33,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [

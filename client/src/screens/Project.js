@@ -31,7 +31,7 @@ const Project = (props) => {
           alt={project.name}
           className="portfolio-image-individual__main"
         />
-        <a href={project.url} target="_blank" rel='no'>
+        <a href={project.url} target="_blank" rel="noreferrer">
           {project.category}
         </a>
         <p>

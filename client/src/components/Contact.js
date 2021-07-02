@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 
 const Contact = () => {
   const sendEmail = (event) => {
@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Particles
+      {/* <Particles
         className="particles-canvas"
         params={{
           particles: {
@@ -47,7 +47,7 @@ const Contact = () => {
             },
           },
         }}
-      />
+      /> */}
       <section className="contact" id="contact">
         <div className="contact__container">
           <h2 className="contact__title">Contact</h2>

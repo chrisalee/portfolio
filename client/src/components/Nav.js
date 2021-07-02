@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import HeaderLogo from "../images/logo.png";
 import ChristopherLeeResume from "../images/ChristopherLeeResume.pdf";
@@ -11,22 +11,22 @@ const Nav = () => {
     document.body.classList.remove("nav-open");
   };
 
-  const [anchorTarget, setAnchorTarget] = useState(null);
-  useEffect(() => {
-    setAnchorTarget(document.getElementById("aboutme"));
-  }, ["aboutme"]);
-  useEffect(() => {
-    setAnchorTarget(document.getElementById("technologies"));
-  }, ["technologies"]);
-  useEffect(() => {
-    setAnchorTarget(document.getElementById("myEducation"));
-  }, ["myEducation"]);
-  useEffect(() => {
-    setAnchorTarget(document.getElementById("myWork"));
-  }, ["myWork"]);
-  useEffect(() => {
-    setAnchorTarget(document.getElementById("contact"));
-  }, ["contact"]);
+  // const [anchorTarget, setAnchorTarget] = useState(null);
+  // useEffect(() => {
+  //   setAnchorTarget(document.getElementById("aboutme"));
+  // }, ["aboutme"]);
+  // useEffect(() => {
+  //   setAnchorTarget(document.getElementById("technologies"));
+  // }, ["technologies"]);
+  // useEffect(() => {
+  //   setAnchorTarget(document.getElementById("myEducation"));
+  // }, ["myEducation"]);
+  // useEffect(() => {
+  //   setAnchorTarget(document.getElementById("myWork"));
+  // }, ["myWork"]);
+  // useEffect(() => {
+  //   setAnchorTarget(document.getElementById("contact"));
+  // }, ["contact"]);
 
   return (
     <div className="header">
@@ -37,6 +37,7 @@ const Nav = () => {
         <a
           href={ChristopherLeeResume}
           target="_blank"
+          rel="noreferrer"
           download="ChristopherLeeResume"
           className="resume-link"
         >
