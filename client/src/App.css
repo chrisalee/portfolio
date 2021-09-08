@@ -359,7 +359,7 @@ h3 {
   width: 2em;
   height: 1px;
   margin: 0.5em auto 1em;
-  background: var(--clr-light);
+  background: var(--clr-dark);
   opacity: 0.25;
 }
 

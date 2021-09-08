@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const AboutMe = () => {
+  const handleClick = (event) => {
+    event.preventDefault();
+    anchorTarget.scrollIntoView({ behavior: 'smooth', block: 'start' });  };
+
+  const [anchorTarget, setAnchorTarget] = useState(null);
+
+  useEffect(() => {
+    setAnchorTarget(document.getElementById("myWork"));
+  }, []);
+
   return (
     <div>
       <section className="aboutme" id="aboutme">
@@ -38,7 +48,7 @@ const AboutMe = () => {
           {/* <!-- close service --> */}
         </div>
         {/* <!-- close services --> */}
-        <a href="#myork" className="btn">
+        <a href="/#myork" className="btn" onClick={handleClick}>
           My Portfolio
         </a>
       </section>
