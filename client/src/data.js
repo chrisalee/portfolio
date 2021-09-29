@@ -90,6 +90,26 @@ const data = {
             url: "https://github.com/chrisalee/reactHangman",
             category: "View code on GitHub"
         },
+        {
+            _id: '10',
+            name: '2048',
+            images: ['/images/ReactQuiz.png', '/images/ReactQuiz-2.png'],
+            subtitle: 'ReactJS',
+            description: "A quiz to test your knowledge about JavaScript String References",
+            description2: "Built own database of questions and answers, and brought them to the page using ReactJS useState().",
+            url: "https://github.com/chrisalee/react_quizApp",
+            category: "View code on GitHub"
+        },
+        {
+            _id: '11',
+            name: 'Blog Site',
+            images: ['/images/BlogSite.png', '/images/BlogSite-2.png'],
+            subtitle: 'ReactJS',
+            description: "A template for a blog site using ReactJS",
+            description2: "Focus on creating and using React components.  React Router is used to travers between the different pages.",
+            url: "https://github.com/chrisalee/reactBlogSite",
+            category: "View code on GitHub"
+        },
     ],
 }
 

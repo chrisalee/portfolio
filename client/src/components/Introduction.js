@@ -12,7 +12,7 @@ const Introduction = () => {
         <p className="section__subtitle section__subtitle--intro">
           <Typed
             className = 'typed-text'
-            strings = {["ReactJS", "Python", "C#", "Angular", "Full Stack Developer"]}
+            strings = {["ReactJS", "Python", "C#", "Angular", "SOFTWARE ENGINEER"]}
             typeSpeed = {40}
             backSpeed = {80}
             // loop
