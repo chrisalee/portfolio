@@ -92,7 +92,7 @@ const data = {
         },
         {
             _id: '10',
-            name: '2048',
+            name: 'React JavaScript Quiz',
             images: ['/images/ReactQuiz.png', '/images/ReactQuiz-2.png'],
             subtitle: 'ReactJS',
             description: "A quiz to test your knowledge about JavaScript String References",
