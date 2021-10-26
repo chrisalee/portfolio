@@ -110,6 +110,26 @@ const data = {
             url: "https://github.com/chrisalee/reactBlogSite",
             category: "View code on GitHub"
         },
+        {
+            _id: '12',
+            name: 'Crypto Currency',
+            images: ['/images/CryptoSearch.png', '/images/CryptoSearch-2.png'],
+            subtitle: 'ReactJS',
+            description: "An app to track the prices of available crypto currencies.",
+            description2: "Used Axios and React Hooks.  You can search currencies and have it displayed on the browser.  The prices live update after the page is refreshed, and the data comes from a public API, (https://www.coingecko.com/)",
+            url: "https://github.com/chrisalee/reactCrypto",
+            category: "View code on GitHub"
+        },
+        {
+            _id: '13',
+            name: 'Dashboard',
+            images: ['/images/adminDashboard.png', '/images/adminDashboard-2.png'],
+            subtitle: 'ReactJS,, Redux, Apex Charts',
+            description: "Admin Dashboard with multiple themes and color choices.",
+            description2: "Used Apex Charts (https://apexcharts.com/) to display data in a line graph chart.  Took larger amounts of data and split into smaller viewing sections and then used pagination.  User selected light and dark modes along with a color selector for more user control.",
+            url: "https://github.com/chrisalee/react_adminDashboard",
+            category: "View code on GitHub"
+        },
     ],
 }
 
