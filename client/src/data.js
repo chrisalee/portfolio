@@ -124,10 +124,19 @@ const data = {
             _id: '13',
             name: 'Dashboard',
             images: ['/images/adminDashboard.png', '/images/adminDashboard-2.png'],
-            subtitle: 'ReactJS,, Redux, Apex Charts',
+            subtitle: 'ReactJS, Redux, Apex Charts',
             description: "Admin Dashboard with multiple themes and color choices.",
             description2: "Used Apex Charts (https://apexcharts.com/) to display data in a line graph chart.  Took larger amounts of data and split into smaller viewing sections and then used pagination.  User selected light and dark modes along with a color selector for more user control.",
             url: "https://github.com/chrisalee/react_adminDashboard",
+            category: "View code on GitHub"
+        },
+        {
+            _id: '14',
+            name: 'Game Landing Page',
+            images: ['/images/GameLandingPage.png', '/images/GameLandingPage3.png'],
+            subtitle: 'ReactJS, Vite, Swiper.js, SASS, yarn hover-effect ',
+            description: "A Game Landing Page built using React.js, Vite.js and SASS.",
+            description2: "This game landing page uses swiper.js to allow mouse scrolling to another feature of the homepage.  Mapping through all the characters and using swiper to grab hold of the screen and rotate through more available characters.  To another section previewing videos of each character to another section with gameplay trailers.",
             category: "View code on GitHub"
         },
     ],
