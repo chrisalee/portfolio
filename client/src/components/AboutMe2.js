@@ -29,7 +29,7 @@ const AboutMe2 = () => {
             MERN as well utilizing different frameworks and technologies.
           </p>
         </div>
-        <img src={ProfilePic2} alt="vert-pic" className="myEducation__image" />
+        <img src={ProfilePic2} alt="vert-pic" className="myEducation__image" loading='lazy' />
       </section>
     </div>
   );

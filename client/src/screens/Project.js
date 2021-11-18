@@ -21,6 +21,7 @@ const Project = (props) => {
           src={project.images[0]}
           alt={project.name}
           className="intro__img portfolio-image-individual"
+          loading='lazy'
         />
       </section>
 
@@ -30,6 +31,7 @@ const Project = (props) => {
           src={project.images[1]}
           alt={project.name}
           className="portfolio-image-individual__main"
+          loading='lazy'
         />
         <a href={project.url} target="_blank" rel="noreferrer">
           {project.category}

@@ -17,7 +17,8 @@ const MyProjects = () => {
               <img
                 src={project.images[0]}
                 alt={project.name}
-                className="portfolio__image "
+                className="portfolio__imag"
+                loading='lazy'
               />
             </Link>
           ))}

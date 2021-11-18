@@ -18,7 +18,7 @@ const Introduction = () => {
             // loop
           />
         </p>
-        <img src={SelfPorait} alt="anime-me" className="intro__img" />
+        <img src={SelfPorait} alt="anime-me" className="intro__img" loading='lazy' />
       </section>
     </div>
   );
