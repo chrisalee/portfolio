@@ -137,6 +137,17 @@ const data = {
             subtitle: 'ReactJS, Vite, Swiper.js, SASS, yarn hover-effect ',
             description: "A Game Landing Page built using React.js, Vite.js and SASS.",
             description2: "This game landing page uses swiper.js to allow mouse scrolling to another feature of the homepage.  Mapping through all the characters and using swiper to grab hold of the screen and rotate through more available characters.  To another section previewing videos of each character to another section with gameplay trailers.",
+            url: "https://github.com/chrisalee/react_gameLandingPage",
+            category: "View code on GitHub"
+        },
+        {
+            _id: '15',
+            name: 'Exercise Tracker',
+            images: ['/images/ExerciseClass.png', '/images/ExerciseClass-2.png'],
+            subtitle: 'ReactJS, Express, Node.js, MongoDB',
+            description: "An exercise tracker that allows users to add usernames to a database, and create exercises",
+            description2: "This exercise tracker was built with react class components.",
+            url: "https://github.com/chrisalee/react_exerciseClass",
             category: "View code on GitHub"
         },
     ],
