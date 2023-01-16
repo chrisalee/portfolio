@@ -150,6 +150,16 @@ const data = {
             url: "https://github.com/chrisalee/react_exerciseClass",
             category: "View code on GitHub"
         },
+        {
+            _id: '16',
+            name: 'Jeopardy',
+            images: ['/images/jeopardy.png', '/images/jeopardy2.png'],
+            subtitle: 'A vanilla JS project deployed to github pages',
+            description: "A basic prototype of a Jeopardy clone.  The app pulls questions from jService, an open API of Jeopardy questions.",
+            description2: "ThisJeopardy style trivia game was built with HTML, CSS, and JS.",
+            url: "https://chrisalee.github.io/js_jeopardy/",
+            category: "View website"
+        },
     ],
 }
 

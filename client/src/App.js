@@ -9,6 +9,8 @@ import Project from './screens/Project';
 
 const App = () => {
 
+  console.log("***********************\n", "Hi! And welcome to the portfolio of Christopher Lee\n", "***********************")
+
   return (
     <BrowserRouter>
       <div className="app">

@@ -10,11 +10,11 @@ const Footer = () => {
                     <i className="fab fa-linkedin"></i>
                 </a>
             </li>
-            <li className="social--list__item">
+            {/* <li className="social--list__item">
                 <a href="https://twitter.com/chrisl222" className="social--list__link" target="_blank"  rel="noopener noreferrer">
                     <i className="fab fa-twitter"></i>
                 </a>
-            </li>
+            </li> */}
             {/* <li className="social--list__item">
                 <a href="https://www.instagram.com/chrisalee222/" className="social--list__link" target="_blank"  rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>

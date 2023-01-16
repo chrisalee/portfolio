@@ -414,6 +414,10 @@ ul {
   max-width: 5.5rem;
 }
 
+.section__image--technolgies::before {
+  
+}
+
 /* about me 2 **********************************************/
 .myEducation {
   max-width: 1000px;

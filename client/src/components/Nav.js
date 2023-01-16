@@ -31,7 +31,9 @@ const Nav = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src={HeaderLogo} alt="" className="logo__image" loading='lazy' />
+        <Link to="/">
+          <img src={HeaderLogo} alt="" className="logo__image" loading="lazy" />
+        </Link>
       </div>
       <div className="resume">
         <a
