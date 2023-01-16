@@ -36,27 +36,30 @@ const Technologies = () => {
         <div>
             <section className="technolgies" id='technologies'>
                 <h2 className="section__title section__title--technolgies">Technologies</h2>
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ HTML } alt="HTML" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ CSS } alt="CSS" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ JavaScript } alt="JS" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ jQuery } alt="jQuery" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ ajax } alt="ajax" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Angular } alt="Angular" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Python } alt="Python" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ CSharp } alt="C#" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Bootstrap } alt="Bootstrap" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ nodeJS } alt="nodejs" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ MongoDB } alt="mongodb" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ MySQL } alt="mysql" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ ReactJS } alt="html" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ MEAN } alt="MEAN" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Express } alt="Express" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Django } alt="django" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ GitHub } alt="github" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ MERN } alt="MERN" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Flask } alt="flask" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Unity } alt="unity" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
-                <img loading='lazy' className="section__imgage section__image--technolgies" src={ Firebase } alt="firebase" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                {/* <div className="tech"> */}
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ HTML } alt="HTML" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                {/* <div className="img__overlay">HTML</div> */}
+                {/* </div> */}
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ CSS } alt="CSS" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ JavaScript } alt="JS" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ jQuery } alt="jQuery" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ ajax } alt="ajax" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Angular } alt="Angular" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Python } alt="Python" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ CSharp } alt="C#" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Bootstrap } alt="Bootstrap" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ nodeJS } alt="nodejs" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ MongoDB } alt="mongodb" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ MySQL } alt="mysql" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ ReactJS } alt="html" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ MEAN } alt="MEAN" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Express } alt="Express" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Django } alt="django" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ GitHub } alt="github" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ MERN } alt="MERN" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Flask } alt="flask" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Unity } alt="unity" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
+                <img loading='lazy' className="section__imgage section__image--technolgies"  src={ Firebase } alt="firebase" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
             </section>
         </div>
     )

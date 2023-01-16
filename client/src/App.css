@@ -414,9 +414,30 @@ ul {
   max-width: 5.5rem;
 }
 
-.section__image--technolgies::before {
-  
+/* .tech {
+  position: relative;
 }
+
+.img__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  align-items: center;
+	justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.img__overlay:hover {
+  opacity: 1;
+} */
 
 /* about me 2 **********************************************/
 .myEducation {
@@ -508,7 +529,31 @@ ul {
 .portfolio__image:hover,
 .portfolio__item:focus .portfolio__image {
   transform: scale(1.2);
-  opacity: 0.75;
+  /* opacity: 0.75; */
+}
+
+.project__img {
+  position: relative;
+}
+
+.img--overlay {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  display: flex;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  font-size: var(--fs-h3);
+  opacity: 0;
+	transition: opacity 0.25s;
+  align-items: center;
+  justify-content: center;
+}
+
+.img--overlay:hover {
+  opacity: .8;
 }
 
 /* contact form*********************************************** */
